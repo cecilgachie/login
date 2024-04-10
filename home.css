@@ -47,3 +47,9 @@ button{
     height: 3em;
     background-color: blue;
 }
+
+ @media screen and (max-width: 600px) {
+            /* Adjust styles for screens smaller than 600px width */
+            .box {
+                max-width: 90%; /* Adjust max-width for smaller screens */
+            }

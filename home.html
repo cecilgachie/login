@@ -5,6 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myweb</title>
     <link rel="stylesheet" href="home.css">
+    <style>
+        /* Add CSS styles for responsiveness */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .box {
+            max-width: 400px; /* Adjust max-width as needed */
+            margin: auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+        }
+        
+        input[type="text"], select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        @media screen and (max-width: 600px) {
+            /* Adjust styles for screens smaller than 600px width */
+            .box {
+                max-width: 90%; /* Adjust max-width for smaller screens */
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>fill the form!</h1>

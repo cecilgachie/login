@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I'm Sorry ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      opacity: 0;
+      transition: opacity 1s ease;
+    }
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      max-width: 600px;
+    }
+    h1 {
+      color: #ff6b6b;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #333;
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+    audio {
+      display: none; /* hide the player */
+    }
+  </style>
+</head>
+<body onload="fadeIn()">
+  <div class="card">
+    <h1>I'm Sorry ❤️</h1>
+    <p>
+      I know I hurt you, and I regret it deeply.  
+      You are my princess, my world, and the one I never want to lose.  
+      Please forgive me — I promise to be better, to love you truly, and to never let you down again.
+    </p>
+  </div>
+
+  <!-- Background music -->
+  <audio autoplay loop>
+    <source src="soft-piano.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    function fadeIn() {
+      document.body.style.opacity = 1;
+    }
+  </script>
+</body>
+</html>
